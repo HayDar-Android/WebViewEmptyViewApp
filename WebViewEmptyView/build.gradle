@@ -1,9 +1,31 @@
 apply plugin: 'com.android.library'
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'WebViewEmptyView'
 
+    publishedGroupId = 'io.haydar.we'
+    libraryName = 'WebViewEmptyView'
+    artifact = 'WebViewEmptyView'
+
+    libraryDescription = 'Android WebViewEmptyView'
+
+    siteUrl = 'https://github.com/HayDar-Android/WebViewEmptyViewApp'
+    gitUrl = 'https://github.com/HayDar-Android/WebViewEmptyViewApp.git'
+
+    libraryVersion = '1.0'
+
+    developerId = 'haydar'
+    developerName = 'haydar'
+    developerEmail = 'gjy521748@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.3"
-
+    resourcePrefix "WebViewEmptyView"
     defaultConfig {
         minSdkVersion 16
         targetSdkVersion 23
@@ -29,3 +51,8 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.3.0'
     testCompile 'junit:junit:4.12'
 }
+
+
+
+apply from: 'https://raw.githubusercontent.com/HayDar-Android/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/HayDar-Android/JCenter/master/bintrayv1.gradle'
