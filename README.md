@@ -1,4 +1,4 @@
-#CircleImageView[![Download](https://api.bintray.com/packages/haydar-android/maven/WebViewEmptyView/images/download.svg) ](https://bintray.com/haydar-android/maven/WebViewEmptyView/_latestVersion)
+#WebViewEmptyView[ ![Download](https://api.bintray.com/packages/haydar-android/maven/webview_emptyview/images/download.svg) ](https://bintray.com/haydar-android/maven/webview_emptyview/_latestVersion)<a href='https://bintray.com/haydar-android/maven/webview_emptyview?source=watch' alt='Get automatic notifications about new "webview_emptyview" versions'><img src='https://www.bintray.com/docs/images/bintray_badge_color.png'></a>
 
 
 ##Download
