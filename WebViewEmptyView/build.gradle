@@ -1,11 +1,11 @@
 apply plugin: 'com.android.library'
 ext {
     bintrayRepo = 'maven'
-    bintrayName = 'webview_emptyview'
+    bintrayName = 'WebViewEmptyView'
 
     publishedGroupId = 'io.haydar.we'
-    libraryName = 'webview_emptyview'
-    artifact = 'webview_emptyview'
+    libraryName = 'WebViewEmptyView'
+    artifact = 'WebViewEmptyView'
 
     libraryDescription = 'Android WebViewEmptyView'
 
@@ -25,7 +25,7 @@ ext {
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.3"
-    resourcePrefix "webview_emptyview"
+    resourcePrefix "WebViewEmptyView"
     defaultConfig {
         minSdkVersion 16
         targetSdkVersion 23

@@ -7,7 +7,7 @@
 
 ``` gradle
 dependencies {
-	compile 'io.haydar.we:webview_emptyview:1.0'
+	compile 'io.haydar.we:WebViewEmptyView:1.0'
 }
 ```
 
