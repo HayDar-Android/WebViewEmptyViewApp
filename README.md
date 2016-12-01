@@ -11,6 +11,19 @@ dependencies {
 }
 ```
 
+###Getting Help
+``` java
+  webviewEmptyView.setWebViewClient(new WebViewEmptyViewClient(this))
+```
+new WebviewEmptyViewClient即可
+可以自定义loadview和errorview，
+``` java
+  public WebViewEmptyViewClient(Context context, int mErrorLayout, int mErrorLayoutId, int mLoadLayout, int mLoadLayoutId)
+```
+
+``` java
+   webviewEmptyView.setWebViewClient(new WebViewEmptyViewClient(this,R.layout.view_load,R.id.load_layout,R.layout.view_error,R.id.error_layout)
+```
 
 
 ##License
